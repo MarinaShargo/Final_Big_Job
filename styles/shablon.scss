@@ -1,0 +1,129 @@
+%hero {
+    font-family: 'Montserrat Bold';
+    font-size: 38px;
+    line-height: 46px;
+    color: #F0145A;
+    font-weight: 700;
+}
+
+%h2 {
+    font-family: 'Montserrat Bold';
+    font-size: 30px;
+    line-height: 37px;
+    color: #323264;
+    font-weight: 700;
+}
+
+%h3 {
+    font-family: 'Montserrat Bold';
+    font-size: 22px;
+    line-height: 27px;
+    color: #323264;
+    text-transform: uppercase;
+}
+
+%h3_small {
+    font-family: 'Montserrat Bold';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $active_regular;
+    text-transform: uppercase;
+}
+
+%paragraph {
+    font-family: 'Montserrat Regular';
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+%small_paragrah {
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    align-self: stretch
+}
+
+%smallest_paragraph {
+    font-family: 'Montserrat Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+}
+
+%small_footer {
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+}
+
+%smallest {
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+%footer_llc {
+    font-family: 'Montserrat Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+}
+
+%footer_date {
+    font-family: 'Montserrat Bold';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+}
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+%flex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+%gradient {
+    color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    background-image:$gradient_red_text_color ;
+}
+
+%gradient_left {
+    color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    background-image:linear-gradient(90deg,#EF8080  0, #F0145A 100%);
+   
+}
